@@ -1,0 +1,25 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "tarefa": "tarefa1",
+      "checked": false
+    },
+    {
+      "id": 2,
+      "tarefa": "tarefa2",
+      "checked": true
+    },
+    {
+      "id": 3,
+      "tarefa": "tarefa3",
+      "checked": true
+    },
+    {
+      "id": 21,
+      "tarefa": "nova tarefa",
+      "time": "",
+      "checked": false
+    }
+  ]
+}

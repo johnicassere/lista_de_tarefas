@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap");
+.App {
+  width: 40%;
+  margin: 2em auto;
+  border-radius: 5px;
+  color: #ccc;
+}
+.tarefa-header {
+  padding: 0.5em;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+.tarefa-header h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 2px 2px #000;
+}
+
+.tarefa-form {
+  padding: 0.8em;
+  margin: 0 1.5em;
+  border-bottom: 1px solid gray;
+}
+
+.tarefa-form h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.form-ctrl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+
+.form-ctrl label {
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-bottom: 0.5em;
+}
+
+.form-ctrl input {
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #bfc2c6;
+  padding: 0.4em;
+  height: 2.3em;
+}
+
+button {
+  background-color: #333;
+  color: #eee;
+  display: block;
+  width: 100%;
+  border: 1px solid #222;
+  border-radius: 5px;
+  padding: 1em;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(25, 19, 19);
+}
+
+.tarefa-lista {
+  padding: 0 1em 2em;
+  margin: 1em 2em;
+}
+
+.tarefa-lista h1{
+  display: flex;
+  justify-content: center;
+  text-shadow: 2px 1px gray;
+}
+
+.tarefa-lista h2 {
+  margin: 0;
+}
+
+.tarefa-lista p {
+  text-align: center;
+}
+.task {
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding: 0;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.task h3 {
+  font-size: 2.6em;
+  margin-bottom: 0.5em;
+  text-shadow: 1px 1px #000;
+}
+
+.task-check {
+  text-decoration: line-through;
+  color: rgb(60, 81, 236);
+}
+
+.task p {
+  text-align: left;
+  font-style: italic;
+  font-size: 0.8em;
+  margin-bottom: 1.5em;
+}
+
+.task svg {
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-right: 1em;
+  transition: 0.5s;
+}
+
+.task svg:hover {
+  color: rgb(204, 98, 146);
+}
+.acao {
+}

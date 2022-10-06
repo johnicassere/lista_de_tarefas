@@ -1,0 +1,15 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gemunu Libre', sans-serif;
+    background: linear-gradient(45deg, #6661f0 0%, rgb(55, 173, 237) 37%, rgb(127, 234, 124) 100%);
+    background-size: 600% 100%;
+    animation: gradient 18s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes gradient {
+  0% {background-position: 0%}
+  100% {background-position: 100%}
+}
