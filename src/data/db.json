@@ -3,7 +3,7 @@
     {
       "id": 1,
       "tarefa": "tarefa1",
-      "checked": false
+      "checked": true
     },
     {
       "id": 2,
