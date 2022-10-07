@@ -1,3 +1,4 @@
+
 const TarefaContext = {
     tarefaEndpoint: () => `${Api.baseUrl}`,
     getLista: () => `${TarefaContext.tarefaEndpoint()}`,
@@ -10,6 +11,8 @@ const TarefaContext = {
   
   
  export const Api = {
-    baseUrl: "http://localhost:3001/tarefas",
+  //baseUrl: "http://localhost:3001/tarefas",
+  baseUrl: process.env.REACT_APP_NOT_SECRET_CODE,
+  
     ...TarefaContext
   }
